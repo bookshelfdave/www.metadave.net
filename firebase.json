@@ -1,5 +1,12 @@
 {
-	"hosting": {
-		"public": "public"
-	}
+  "hosting": {
+    "public": "public",
+    "headers": [ { 
+        "source": "**",
+        "headers": [ {
+          "key": "x-black-lives-matter",
+          "value": "*"
+        } ]
+      }]
+    }
 }
